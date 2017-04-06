@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 project (neovox)
 set(NEOVOX_SRCS NeoVox.h NeoVox.cpp)
 
-add_library(neovox STATIC ${NEOVOX_SRCS})
+add_library(neovox SHARED ${NEOVOX_SRCS})
 
 include (CTest)
 find_package(GTest REQUIRED)
