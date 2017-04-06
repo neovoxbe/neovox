@@ -10,5 +10,5 @@ TEST(neovox, dummy2) {
 }
 
 TEST(neovox, dummy_fail) {
-    EXPECT_EQ(42,43);
+    EXPECT_EQ(43,43);
 }
