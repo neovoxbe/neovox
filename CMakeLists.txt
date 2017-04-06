@@ -5,7 +5,7 @@ set(NEOVOX_SRCS NeoVox.h NeoVox.cpp)
 
 add_library(neovox STATIC ${NEOVOX_SRCS})
 
-enable_testing()
+include (CTest)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 add_subdirectory(./test)
