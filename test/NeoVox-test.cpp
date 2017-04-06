@@ -8,3 +8,7 @@ TEST(neovox, dummy) {
 TEST(neovox, dummy2) {
     EXPECT_EQ(42,42);
 }
+
+TEST(neovox, dummy_fail) {
+    EXPECT_EQ(42,43);
+}
