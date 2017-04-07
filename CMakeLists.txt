@@ -4,6 +4,7 @@ project (neovox)
 set(NEOVOX_SRCS NeoVox.h NeoVox.cpp)
 
 add_library(neovox SHARED ${NEOVOX_SRCS})
+add_library(neovox_static STATIC ${NEOVOX_SRCS})
 
 include (CTest)
 find_package(GTest REQUIRED)
